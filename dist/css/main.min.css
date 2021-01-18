@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Open+Sans:wght@300;400;600;700&display=swap");*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;text-decoration:none;list-style:none}html{scroll-behavior:smooth}body{font-family:"Open Sans", sans-serif}img{width:100%;object-fit:cover}button{cursor:pointer;outline:0}/*!
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Open+Sans:wght@300;400;600;700&display=swap");*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;text-decoration:none;list-style:none}html{scroll-behavior:smooth}body{font-family:"Open Sans", sans-serif}img{width:100%;object-fit:cover}button{cursor:pointer;outline:0}.navbar-brand img{width:5rem}@media (max-width: 576px){.navbar-brand img{width:3rem}}.navbar-brand h3,.navbar-brand .h3{font-weight:bold;letter-spacing:0.2rem;text-transform:capitalize;font-family:"Aclonica", cursive}.navbar-nav a{font-size:1.5rem;margin-left:0.8rem;border-bottom:0.1rem solid #e3b261}/*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.

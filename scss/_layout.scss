@@ -1,0 +1,25 @@
+// navbar
+.navbar {
+  &-brand {
+    img {
+      width: 5rem;
+
+      @media (max-width: 576px) {
+        width: 3rem;
+      }
+    }
+
+    h3 {
+      @include headingStyles(capitalize);
+      font-family: "Aclonica", cursive;
+    }
+  }
+
+  &-nav {
+    a {
+      font-size: size(xs) - 0.1rem;
+      margin-left: 0.8rem;
+      border-bottom: 0.1rem solid $primary;
+    }
+  }
+}
