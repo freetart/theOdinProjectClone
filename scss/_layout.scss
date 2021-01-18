@@ -36,3 +36,29 @@
     @include textStyles();
   }
 }
+
+// how it works
+
+.works {
+  .cards {
+    img {
+      width: 15rem;
+    }
+
+    .card-1 {
+      width: 8rem;
+    }
+
+    .card-3 {
+      width: 13rem;
+    }
+
+    h4 {
+      @include headingStyles();
+    }
+
+    p {
+      @include textStyles();
+    }
+  }
+}
