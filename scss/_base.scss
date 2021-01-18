@@ -1,0 +1,60 @@
+// FONTS
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+// GLOBALS
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+}
+
+// VARIABLES
+$primary: #e3b261;
+$secondary: #6abfc3;
+
+$font-sizes: (
+  xl: 3rem,
+  lg: 2.5rem,
+  md: 2rem,
+  sm: 1.8rem,
+  xs: 1.6rem,
+);
+
+@function size($size) {
+  @return map-get($font-sizes, $size);
+}
+
+// MIXINS
+@mixin headingStyles($textTransform) {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: $textTransform;
+}
+
+@mixin textStyles() {
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
+}
