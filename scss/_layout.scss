@@ -40,12 +40,29 @@
 // how it works
 .works {
   .cards {
+    img {
+      width: 100%;
+    }
+
     h4 {
-      @include headingStyles();
+      @include headingStyles(capitalize);
     }
 
     p {
       @include textStyles();
     }
   }
+}
+
+// technologies
+.technologies {
+  .badge-img {
+    width: 10rem;
+    margin: auto;
+  }
+}
+
+// stories
+.story-img {
+  width: 10rem;
 }
