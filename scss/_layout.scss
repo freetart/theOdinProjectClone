@@ -97,3 +97,23 @@
     }
   }
 }
+
+.beliefs {
+  p {
+    @include textStyles();
+    width: 75%;
+    margin: 0 auto;
+
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+
+  img {
+    width: 10rem;
+
+    @media (max-width: 576px) {
+      width: 6rem;
+    }
+  }
+}
