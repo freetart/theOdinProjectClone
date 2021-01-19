@@ -63,7 +63,7 @@
 
     <!-- header -->
     <header class="paths-header py-5">
-      <h1 class="display-2 text-center text-primary">Sign Up For Free</h1>
+      <h1 class="display-2 text-center text-primary">Log In</h1>
     </header>
 
     <main>
@@ -73,17 +73,6 @@
             <div class="col-lg-6 m-auto">
               <div class="card card-body">
                 <form class="p-2">
-                  <div class="input-group input-group-lg mb-3">
-                    <span class="input-group-text bg-dark">
-                      <i class="fas fa-user text-primary"></i>
-                    </span>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Username"
-                      aria-label="Username"
-                    />
-                  </div>
                   <div class="input-group input-group-lg mb-3">
                     <span class="input-group-text bg-dark">
                       <i class="fas fa-envelope text-primary"></i>
@@ -106,21 +95,24 @@
                       aria-label="Password"
                     />
                   </div>
-                  <div class="input-group input-group-lg mb-3">
-                    <span class="input-group-text bg-dark">
-                      <i class="fas fa-lock text-primary"></i>
-                    </span>
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder="Confirm Password"
-                      aria-label="Confrim Password"
-                    />
-                  </div>
-                  <div class="text-center mb-3">
-                    <a href="#!">
-                      By signing up, you agree to our terms of use.
-                    </a>
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div class="form-check my-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Remember Password?
+                      </label>
+                    </div>
+
+                    <div>
+                      <a href="#!">Forgot Password?</a>
+                    </div>
                   </div>
 
                   <button
@@ -131,7 +123,7 @@
                   </button>
                   <hr />
                   <div class="text-center">
-                    <p class="text-muted">Or sign up with</p>
+                    <p class="text-muted">Or log in with</p>
                     <button
                       type="submit"
                       class="btn btn-dark btn-lg text-white col-12 mt-1"
