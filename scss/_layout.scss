@@ -28,6 +28,8 @@
   }
 }
 
+// ********** homepage **********
+
 // hero
 .hero {
   margin-top: 8rem;
@@ -39,6 +41,10 @@
 
 // how it works
 .works {
+  p {
+    @include textStyles();
+  }
+
   .cards {
     img {
       width: 100%;
@@ -46,10 +52,6 @@
 
     h4 {
       @include headingStyles(capitalize);
-    }
-
-    p {
-      @include textStyles();
     }
   }
 }
@@ -65,4 +67,18 @@
 // stories
 .story-img {
   width: 10rem;
+}
+
+// ********** all paths **********
+
+.paths-header {
+  margin-top: 10rem;
+}
+
+.paths {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("/dist/images/home/bg.svg") center center/cover no-repeat;
 }
