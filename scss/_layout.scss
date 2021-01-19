@@ -117,3 +117,13 @@
     }
   }
 }
+
+.overview {
+  h3 {
+    @include headingStyles();
+  }
+
+  h5 {
+    @include headingStyles();
+  }
+}
