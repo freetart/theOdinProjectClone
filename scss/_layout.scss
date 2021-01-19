@@ -82,3 +82,18 @@
     ),
     url("/dist/images/home/bg.svg") center center/cover no-repeat;
 }
+
+// ********** about **********
+.about-header {
+  margin-top: 10rem;
+
+  p {
+    @include textStyles();
+    width: 75%;
+    margin: 0 auto;
+
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}
