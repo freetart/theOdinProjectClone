@@ -6,4 +6,3 @@
 - HTML
 - SCSS
 - Bootstrap 5
-- Vanilla Javascript
